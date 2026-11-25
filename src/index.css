@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eeeeee;
+    color: #333;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+}
+
+h1 {
+    color: #702b3b;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #702b3b;
+    margin-bottom: 15px;
+}
+
+.planet-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.planet-card,
+.person-card,
+.planet-info {
+    background: #f5f5f5;
+    padding: 22px;
+    border-radius: 12px;
+    border: 1px solid #e2e2e2;
+}
+
+.planet-card p,
+.planet-info p,
+.person-card p {
+    margin: 12px 0;
+    line-height: 1.5;
+}
+
+.details-link {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 16px;
+    background: #702b3b;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.details-link:hover {
+    background: #511d2a;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 25px;
+    color: #702b3b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.visited {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 8px 14px;
+    background: #e4eee7;
+    color: #356344;
+    border-radius: 7px;
+}
+
+.resident-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.resident-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 9px;
+    color: #333;
+    text-decoration: none;
+}
+
+.resident-card:hover {
+    background: #eeeeee;
+    border-color: #702b3b;
+}
+
+.resident-card span {
+    color: #702b3b;
+    font-size: 13px;
+}
